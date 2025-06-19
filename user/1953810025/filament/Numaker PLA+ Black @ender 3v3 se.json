@@ -1,0 +1,51 @@
+{
+    "enable_pressure_advance": [
+        "1"
+    ],
+    "filament_flow_ratio": [
+        "0.96"
+    ],
+    "filament_max_volumetric_speed": [
+        "14"
+    ],
+    "filament_retraction_length": [
+        "1"
+    ],
+    "filament_settings_id": [
+        "Numaker PLA+ Black @ender 3v3 se"
+    ],
+    "filament_type": [
+        "PLA+"
+    ],
+    "filament_vendor": [
+        "Numakers"
+    ],
+    "from": "User",
+    "hot_plate_temp": [
+        "60"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "65"
+    ],
+    "inherits": "Creality Generic PLA @Ender-3V3-all",
+    "name": "Numaker PLA+ Black @ender 3v3 se",
+    "nozzle_temperature": [
+        "215"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "218"
+    ],
+    "nozzle_temperature_range_high": [
+        "240"
+    ],
+    "pressure_advance": [
+        "0.062"
+    ],
+    "textured_plate_temp": [
+        "60"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "65"
+    ],
+    "version": "2.3.0.3"
+}

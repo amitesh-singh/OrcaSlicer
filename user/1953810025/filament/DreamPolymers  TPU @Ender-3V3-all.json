@@ -1,0 +1,34 @@
+{
+    "enable_pressure_advance": [
+        "1"
+    ],
+    "filament_retraction_length": [
+        "0"
+    ],
+    "filament_settings_id": [
+        "DreamPolymers  TPU @Ender-3V3-all"
+    ],
+    "filament_vendor": [
+        "DreamPolymers"
+    ],
+    "from": "User",
+    "inherits": "Creality Generic TPU @Ender-3V3-all",
+    "is_custom_defined": "0",
+    "name": "DreamPolymers  TPU @Ender-3V3-all",
+    "nozzle_temperature": [
+        "225"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "225"
+    ],
+    "pressure_advance": [
+        "0.04"
+    ],
+    "textured_plate_temp": [
+        "60"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "60"
+    ],
+    "version": "2.3.0.3"
+}

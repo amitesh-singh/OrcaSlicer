@@ -1,0 +1,15 @@
+{
+    "default_acceleration": "500",
+    "from": "User",
+    "inherits": "0.20mm Standard @Creality Ender3V3SE 0.4",
+    "initial_layer_infill_speed": "25",
+    "initial_layer_speed": "10",
+    "inner_wall_acceleration": "500",
+    "name": "0.20mm Standard Slow Acceleration 500mm @Creality Ender3V3SE 0.4",
+    "outer_wall_acceleration": "500",
+    "print_settings_id": "0.20mm Standard Slow Acceleration 500mm @Creality Ender3V3SE 0.4",
+    "sparse_infill_pattern": "gyroid",
+    "top_surface_acceleration": "500",
+    "travel_acceleration": "500",
+    "version": "2.3.0.3"
+}

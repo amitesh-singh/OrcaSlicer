@@ -1,0 +1,31 @@
+{
+    "enable_pressure_advance": [
+        "1"
+    ],
+    "filament_max_volumetric_speed": [
+        "12"
+    ],
+    "filament_settings_id": [
+        "Numakers ASA @Ender-3V3-all"
+    ],
+    "filament_vendor": [
+        "Numakers"
+    ],
+    "from": "User",
+    "inherits": "Creality Generic ASA @Ender-3V3-all",
+    "is_custom_defined": "0",
+    "name": "Numakers ASA @Ender-3V3-all",
+    "nozzle_temperature": [
+        "255"
+    ],
+    "reduce_fan_stop_start_freq": [
+        "0"
+    ],
+    "textured_plate_temp": [
+        "106"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "108"
+    ],
+    "version": "2.3.0.3"
+}

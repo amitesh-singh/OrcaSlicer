@@ -1,0 +1,18 @@
+{
+    "filament_settings_id": [
+        "Wol3d PLA Pro+"
+    ],
+    "from": "User",
+    "hot_plate_temp_initial_layer": [
+        "70"
+    ],
+    "inherits": "Bambu PLA Basic @BBL A1",
+    "name": "Wol3d PLA Pro+",
+    "nozzle_temperature": [
+        "225"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "225"
+    ],
+    "version": "1.10.0.35"
+}

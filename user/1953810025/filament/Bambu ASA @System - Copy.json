@@ -1,0 +1,16 @@
+{
+    "compatible_printers": [
+        "Creality Ender-3 V3 SE 0.4 nozzle"
+    ],
+    "enable_pressure_advance": [
+        "1"
+    ],
+    "filament_settings_id": [
+        "Bambu ASA @System - Copy"
+    ],
+    "from": "User",
+    "inherits": "Bambu ASA @System",
+    "is_custom_defined": "0",
+    "name": "Bambu ASA @System - Copy",
+    "version": "2.3.0.4"
+}

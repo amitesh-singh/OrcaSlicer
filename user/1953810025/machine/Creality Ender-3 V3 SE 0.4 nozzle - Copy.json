@@ -1,0 +1,11 @@
+{
+    "from": "User",
+    "inherits": "Creality Ender-3 V3 SE 0.4 nozzle",
+    "machine_start_gcode": "\nM413 S0; Disable power loss recovery\nM220 S100 ;Reset Feedrate \nM221 S100 ;Reset Flowrate \n \nM104 S[nozzle_temperature_initial_layer] ;Set final nozzle temp \nM190 S[bed_temperature_initial_layer_single] ;Set and wait for bed temp to stabilize \nG28 ;Home \nM420 S1 ; enable bed mesh levelling\nG92 E0 ;Reset Extruder \nG1 Z2.0 F3000 ;Move Z Axis up \nG1 X-2.1 Y20 Z0.28 F5000.0 ;Move to start position \nM109 S[nozzle_temperature_initial_layer] ;Wait for nozzle temp to stabilize \n\n; for cleaning the nozzle\nG1 X30 Y-12 Z6 F5000.0 ;Start posistion for wipe\nG1 Z4 F5000.0 ;Lower to wipe height\nG1 X75 Y-10 Z6.5 F5000.0 ;Wipe 1\nG1 X30 Y-12 Z6.5 F5000.0 ;Wipe 2\nG1 X75 Y-14 Z6.5 F5000.0 ;Wipe 3\nG1 X60 Y-10 Z6.5 F500.0 ;Wipe 4\nG1 X75 Y-10 Z6.5 F5000.0 ;Wipe 5\nG1 X30 Y-12 Z6.5 F5000.0 ;Wipe 6\nG1 X75 Y-14 Z6.5 F5000.0 ;Wipe 7\nG1 X60 Y-10 Z6.5 F500.0 ;Wipe 8\nG1 Z12 F5000.0 ; Move up\nG1 X-2.1 Y20 Z0.28 F5000.0 ;Move to start position \n; nozzle cleaning ended\n\nG1 X-2.1 Y145.0 Z0.28 F1500.0 E15 ;Draw the first line \nG1 X-2.4 Y145.0 Z0.28 F5000.0 ;Move to side a little \nG1 X-2.4 Y20 Z0.28 F1500.0 E30 ;Draw the second line \nG92 E0  ;Reset Extruder \nG1 E-1.0000 F1800 ;Retract a bit \nG1 Z2.0 F3000 ;Move Z Axis up \nG1 E0.0000 F1800",
+    "name": "Creality Ender-3 V3 SE 0.4 nozzle - Copy",
+    "print_host": "192.168.1.70",
+    "printer_settings_id": "Creality Ender-3 V3 SE 0.4 nozzle - Copy",
+    "printhost_apikey": "F_HgV6tdOolrnUmUnC-84HbxzDmR1u5wVhGnVtoIaa4",
+    "support_multi_bed_types": "1",
+    "version": "2.3.0.3"
+}

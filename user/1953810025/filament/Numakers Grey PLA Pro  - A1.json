@@ -1,0 +1,12 @@
+{
+    "filament_flow_ratio": [
+        "1.0227"
+    ],
+    "filament_settings_id": [
+        "Numakers Grey PLA Pro  - A1"
+    ],
+    "from": "User",
+    "inherits": "Generic PLA @BBL A1",
+    "name": "Numakers Grey PLA Pro  - A1",
+    "version": "2.2.0.2"
+}

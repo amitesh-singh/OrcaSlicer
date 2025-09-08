@@ -39,10 +39,10 @@
         "0.062"
     ],
     "textured_plate_temp": [
-        "65"
+        "60"
     ],
     "textured_plate_temp_initial_layer": [
-        "70"
+        "65"
     ],
     "version": "2.3.0.3"
 }
